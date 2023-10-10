@@ -97,6 +97,10 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError(err.message);
   }
 };
+const newFeature = function () {
+  console.log('Welcome To GIT.');
+};
+newFeature();
 const init = function () {
   bookmarksView.addStorageHandler(controlStorageBookmarks);
   recipeView.addHandlerRender(controlRecipes);
